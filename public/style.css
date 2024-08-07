@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* 2: dd3n_fl4g */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'space mono';
+}
+
+span {
+    color: white;
+}
+
+img {
+    width: 200px;
+}
