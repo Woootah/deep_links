@@ -10,11 +10,11 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
-app.get('/flag', (req, res) => {
-    res.send('Try Harder!!');
+app.get('/get_flag', (req, res) => {
+    res.send("Nice try but it's not");
 });
 
-app.get('/super_secret_directory', (req, res) => {
+app.get('/put_flag', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'flag.txt'));
 });
 
